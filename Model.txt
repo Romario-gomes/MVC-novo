@@ -1,0 +1,12 @@
+M -> MODEL
+V -> VIEW
+C -> CONTROLLER
+
+- o usuário requisita a url site.com.br/sobre
+- o mvc vai verificar se esta ROTA está estabelecida.
+- o mvc vai mandar a requisição para o CONTROLLER da rota.
+-- CARRREGA UM VIEW
+-- CHAMAR UM MODEL (tb_usuarios == model usuario);
+
+CONTROLLER 
+Pega informações do MODEL e manda para VIEW
